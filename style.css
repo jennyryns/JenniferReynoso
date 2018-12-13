@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT|Reenie+Beanie');
+
+body {
+  font-family: 'Old Standard TT', serif;
+  font-family: 'Reenie Beanie', cursive;
+  background-color: white;
+  color: grey;
+  margin: 0;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 6px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+}
+.nav a {
+  color: darkgray;
+  text-decoration: none;
+}
+.nav a:hover {
+  text-decoration:overline ;
+}
+#home h1 {
+  text-align: center;
+  font-size: 5em;
+  margin: 200px;
+  padding-bottom:0px;
+}
+#home p {
+  text-align: center;
+  font-size: 2em;
+  margin: 210px;
+}
+#home {
+  background-image: url('assets/home.jpg');
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#about {
+  background-image: url('assets/yellow.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#about p {
+text-align: center;
+  font-size: 2em;
+  margin: 200px;
+  margin-left: 150px;
+}
+#about img {
+  margin:200px;
+}
+
+ #contact {
+  background-image: url('assets/contact.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#contact p {
+  text-align: center;
+  font-size: 2em;
+  margin: 300px;
+  margin-left: 1400px;
+  padding-bottom:100px;
+}
+.email a {
+  color: darkgray;
+text-decoration: none;
+
+}
+.email a:hover {
+  text-decoration:line-through ;
+}
+
+#contact {
+  background-image: ;
+background-size: cover;
+background-position: center;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#about p {
+  color: white
+}
+
+#mother {
+  background-image: url('assets/about.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#self-portrait {
+  background-image: url('assets/red.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+}#gender {
+  background-image: url('assets/lights.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#mother img {
+  margin-left: 200px;
+}
+#self-portrait img {
+  margin-left: 100px;
+}
+#gender img {
+  margin-left: 300px;
+}
